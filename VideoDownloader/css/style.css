@@ -1,0 +1,129 @@
+body{
+    background: #fff;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.logo-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-menu .logo{
+    width: 170px;
+    display: flex;
+}
+.logo-menu .logo img{
+    width: 100%;
+}
+.logo-menu .menu{
+    width: calc(100% - 170px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo-menu .menu ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-menu .menu ul li{
+    list-style: none;
+    display: flex;
+    margin-left: 35px;
+}
+.logo-menu .menu ul li a{
+    fill: #131313;
+    color: #131313;
+    font-weight: 500;
+    text-decoration: none;
+}
+.intro{
+    width: 100%;
+}
+.img-intro{
+    width: 100%;
+    display: flex;
+}
+.img-intro img{
+    width: 100%;
+}
+.content-intro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+.title-intro{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.title-intro h2{
+    font-size: 55px;
+}
+.description-intro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.description-intro h4{
+    font-size: 16px;
+    color: #7a7a7a;
+}
+.button-more{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.btn-more{
+    background-color: #0E3885;
+    border-radius: 50px 50px 50px 50px;
+    font-weight: bold;
+    color: #fff
+}
+.service{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.item-service{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.title-item-service{
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.description-item-service{
+    width: 100%;
+    margin-top: 15px;
+    color: #7a7a7a;
+}
+.privacy{
+    width: 100%;
+}
+.thumbnail-privacy{
+    width: 100%;
+    display: flex;
+}
+.thumbnail-privacy img{
+    width: 100%;
+}
+.content-privacy{
+    width: 100%;
+}
+.content-privacy h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
