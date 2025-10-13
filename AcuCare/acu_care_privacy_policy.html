@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chính sách Quyền riêng tư - AcuCare</title>
+  <style>
+    :root{
+      --bg:#f7f8fb; --card:#ffffff; --primary:#0b5cff; --muted:#6b7280; --accent:#eef2ff;
+      --maxw:900px; --radius:12px; --gap:18px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color-scheme: light;
+    }
+    html,body{height:100%;}
+    body{
+      margin:0; background:var(--bg); color:#0f172a; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+      padding:32px 16px; display:flex; align-items:center; justify-content:center;
+    }
+    .wrap{width:100%; max-width:var(--maxw);}
+    .card{background:var(--card); border-radius:var(--radius); box-shadow:0 6px 20px rgba(12,18,30,0.06); padding:28px;}
+    header{display:flex; gap:16px; align-items:center; margin-bottom:6px}
+    .logo{width:56px; height:56px; border-radius:10px; background:linear-gradient(135deg,var(--accent),#fff); display:flex; align-items:center; justify-content:center; font-weight:700; color:var(--primary); font-size:18px}
+    h1{font-size:20px; margin:0}
+    .meta{color:var(--muted); font-size:13px}
+
+    nav{display:flex; gap:8px; flex-wrap:wrap; margin-top:18px; margin-bottom:14px}
+    nav a{font-size:13px; color:var(--primary); text-decoration:none; background:#f1f5ff; padding:6px 10px; border-radius:8px}
+
+    section{margin-top:18px}
+    h2{font-size:16px; margin:0 0 10px 0}
+    p{margin:0 0 10px 0; line-height:1.55; color:#0b1220}
+    ul{margin:0 0 10px 20px}
+    li{margin:6px 0}
+
+    .muted{color:var(--muted); font-size:13px}
+    .contact{display:flex; gap:10px; align-items:center; margin-top:6px}
+    .email{background:#f3f4f6; padding:8px 10px; border-radius:8px; font-family:monospace}
+
+    footer{margin-top:22px; display:flex; justify-content:space-between; align-items:center; gap:12px}
+    .small{font-size:13px; color:var(--muted)}
+
+    /* Responsive */
+    @media (max-width:520px){
+      body{padding:18px}
+      .card{padding:18px}
+      h1{font-size:18px}
+    }
+
+    /* Print friendly */
+    @media print{
+      body{background:white}
+      .card{box-shadow:none}
+      nav{display:none}
+    }
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" role="document">
+      <header>
+        <div class="logo">AC</div>
+        <div>
+          <h1>Chính sách Quyền riêng tư — AcuCare</h1>
+          <div class="meta">Đơn vị phát triển: Code78 Studio • Hiệu lực: 13/10/2025</div>
+        </div>
+      </header>
+
+      <nav aria-label="Mục lục">
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#thu-thap">Dữ liệu thu thập</a>
+        <a href="#muc-dich">Mục đích</a>
+        <a href="#luu-tru">Lưu trữ & Bảo mật</a>
+        <a href="#chia-se">Chia sẻ</a>
+        <a href="#quyen">Quyền người dùng</a>
+      </nav>
+
+      <section id="gioi-thieu">
+        <h2>1. Giới thiệu</h2>
+        <p>Chính sách này mô tả cách <strong>AcuCare</strong> (ứng dụng do <strong>Code78 Studio</strong> phát triển) thu thập, sử dụng và bảo vệ thông tin cá nhân khi bạn sử dụng ứng dụng. Chúng tôi cam kết tôn trọng quyền riêng tư và tuân thủ các quy định hiện hành và yêu cầu của App Store và Google Play.</p>
+      </section>
+
+      <section id="thu-thap">
+        <h2>2. Thông tin chúng tôi thu thập</h2>
+        <p>Ứng dụng AcuCare chỉ thu thập những dữ liệu sau:</p>
+        <ul>
+          <li><strong>Thông tin cá nhân:</strong> Tên và số điện thoại mà bạn cung cấp khi sử dụng một số tính năng.</li>
+          <li><strong>Thông tin kỹ thuật (hạn chế):</strong> dữ liệu thiết bị cơ bản (ví dụ: loại thiết bị, hệ điều hành, mã nhận dạng ứng dụng) phục vụ vận hành và khắc phục sự cố.</li>
+        </ul>
+        <p class="muted">Lưu ý: AcuCare <strong>không</strong> thu thập ảnh, video, âm thanh, vị trí GPS, cookie theo dõi hoặc dữ liệu từ tài khoản bên thứ ba.</p>
+      </section>
+
+      <section id="muc-dich">
+        <h2>3. Mục đích sử dụng</h2>
+        <p>Chúng tôi sử dụng dữ liệu để:</p>
+        <ul>
+          <li>Quản lý và hỗ trợ tài khoản người dùng.</li>
+          <li>Cung cấp, vận hành và cải thiện các chức năng của ứng dụng bấm huyệt truyền thống nhằm cải thiện sức khỏe.</li>
+        </ul>
+        <p class="muted">Thông tin của bạn <strong>không</strong> được sử dụng cho mục đích quảng cáo hoặc bán cho bên thứ ba.</p>
+      </section>
+
+      <section id="luu-tru">
+        <h2>4. Lưu trữ và bảo mật</h2>
+        <p>Dữ liệu được lưu trữ trên hệ thống máy chủ do Code78 Studio quản lý hoặc dịch vụ đám mây uy tín. Chúng tôi áp dụng các biện pháp kỹ thuật và tổ chức hợp lý để bảo vệ dữ liệu khỏi truy cập trái phép, mất mát hoặc rò rỉ.</p>
+        <p class="muted">Mặc dù vậy, không có hệ thống nào an toàn tuyệt đối — nếu bạn có lo ngại, vui lòng liên hệ để được hướng dẫn bảo mật bổ sung.</p>
+      </section>
+
+      <section id="chia-se">
+        <h2>5. Chia sẻ thông tin</h2>
+        <p>Chúng tôi <strong>không</strong> bán, cho thuê hoặc chia sẻ thông tin cá nhân của bạn cho bên thứ ba cho mục đích thương mại. Chỉ trong trường hợp có yêu cầu pháp lý hợp lệ từ cơ quan có thẩm quyền, chúng tôi có thể cung cấp thông tin theo quy định pháp luật.</p>
+      </section>
+
+      <section id="quyen">
+        <h2>6. Quyền của người dùng</h2>
+        <p>Hiện tại ứng dụng chưa có chức năng xóa tài khoản hoặc quản lý quyền dữ liệu trực tiếp trong giao diện. Nếu bạn muốn:</p>
+        <ul>
+          <li>Yêu cầu sửa đổi thông tin cá nhân,</li>
+          <li>Yêu cầu xóa dữ liệu,</li>
+        </ul>
+        <p>Hãy gửi yêu cầu tới <span class="email">nguyenthithuynga@hmu.edu.vn</span>. Chúng tôi sẽ xử lý và phản hồi yêu cầu trong thời gian sớm nhất.</p>
+      </section>
+
+      <section id="tre-em">
+        <h2>7. Trẻ em</h2>
+        <p>AcuCare không được thiết kế riêng cho trẻ em và không cố ý thu thập dữ liệu của người dưới 13 tuổi. Nếu phát hiện dữ liệu của trẻ em, vui lòng thông báo để chúng tôi xóa ngay lập tức.</p>
+      </section>
+
+      <section id="thay-doi">
+        <h2>8. Thay đổi chính sách</h2>
+        <p>Chúng tôi có thể cập nhật chính sách này khi cần thiết (ví dụ: thay đổi tính năng hoặc yêu cầu pháp lý). Mọi cập nhật sẽ được thông báo trong ứng dụng và cập nhật ngày hiệu lực ở đầu tài liệu.</p>
+      </section>
+
+      <footer>
+        <div>
+          <div class="small">Liên hệ:</div>
+          <div class="contact">
+            <div class="email">nguyenthithuynga@hmu.edu.vn</div>
+            <div class="muted">Code78 Studio — Việt Nam</div>
+          </div>
+        </div>
+        <div class="small">&copy; Code78 Studio • 2025</div>
+      </footer>
+
+    </div>
+  </div>
+</body>
+</html>
